@@ -14,6 +14,7 @@
 		0AE18EE32030A2C500F86761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE18EE12030A2C500F86761 /* LaunchScreen.storyboard */; };
 		0AE18EEE2030A2C500F86761 /* LfSMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18EED2030A2C500F86761 /* LfSMemoTests.swift */; };
 		0AE18EF92030A2C500F86761 /* LfSMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18EF82030A2C500F86761 /* LfSMemoUITests.swift */; };
+		0AE18F072030A3E100F86761 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18F062030A3E100F86761 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0AE18EF42030A2C500F86761 /* LfSMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LfSMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE18EF82030A2C500F86761 /* LfSMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LfSMemoUITests.swift; sourceTree = "<group>"; };
 		0AE18EFA2030A2C500F86761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE18F062030A3E100F86761 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0AE18EDF2030A2C500F86761 /* Assets.xcassets */,
 				0AE18EE12030A2C500F86761 /* LaunchScreen.storyboard */,
 				0AE18EE42030A2C500F86761 /* Info.plist */,
+				0AE18F062030A3E100F86761 /* MemoViewController.swift */,
 			);
 			path = LfSMemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0AE18EDB2030A2C500F86761 /* ViewController.swift in Sources */,
 				0AE18ED92030A2C500F86761 /* AppDelegate.swift in Sources */,
+				0AE18F072030A3E100F86761 /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
